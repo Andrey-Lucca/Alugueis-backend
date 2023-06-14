@@ -11,7 +11,7 @@ class App{ //Qunado app for instanciada (chamada em algum lugar) o método const
 
   constructor(){
     this.server = express();
-    mongoose.connect('mongodb+srv://AndreyLucca:Cabecinha@devhouse.8hxdbob.mongodb.net/?retryWrites=true&w=majority',{
+    mongoose.connect('conexaoMongo',{
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
